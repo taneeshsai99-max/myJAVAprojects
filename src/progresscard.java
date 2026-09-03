@@ -1,3 +1,4 @@
+import java.security.spec.RSAOtherPrimeInfo;
 import java.util.Scanner;
 public class progresscard {
     public static void main(String args[]){
@@ -11,9 +12,10 @@ public class progresscard {
         System.out.print("Enter Student height:");
         float height=a.nextFloat();
         System.out.println("Student Height:"+height);
-        System.out.print("Enter Student Class:");
-        String Class=a.nextLine();
-        System.out.println("Student Class:"+Class);
+        a.nextLine();
+        System.out.print("Enter Student Standard:");
+        String standard=a.nextLine();
+        System.out.println("Student standard:"+standard);
 
 
     }
